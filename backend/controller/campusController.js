@@ -39,7 +39,7 @@ module.exports = {
     }
   },
 
-  // 🔥 UPDATE kampus
+  //  UPDATE kampus
   async update(req, res) {
     try {
       const { id } = req.params;
@@ -57,7 +57,7 @@ module.exports = {
     }
   },
 
-  // 🔥 DELETE kampus
+  //  DELETE kampus
   async remove(req, res) {
     try {
       const { id } = req.params;
