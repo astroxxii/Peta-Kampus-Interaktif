@@ -1,4 +1,3 @@
-// controller/campusController.js
 const Kampus = require('../model/campusDataModel');
 
 module.exports = {
@@ -39,7 +38,6 @@ module.exports = {
     }
   },
 
-  //  UPDATE kampus
   async update(req, res) {
     try {
       const { id } = req.params;
@@ -57,7 +55,6 @@ module.exports = {
     }
   },
 
-  //  DELETE kampus
   async remove(req, res) {
     try {
       const { id } = req.params;
